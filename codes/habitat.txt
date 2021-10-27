@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS "habitat" (
+    "habit_code" TEXT,
+    "habitat" TEXT
+);
+INSERT INTO "habitat" VALUES
+    ('CS','Climbeing Shrubs'),
+    ('H','Herbs'),
+    ('TW','Twiners'),
+    ('S','Shrubs'),
+    ('T','Trees'),
+    ('L','Liana');
+

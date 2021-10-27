@@ -1,0 +1,80 @@
+CREATE TABLE IF NOT EXISTS "uses" (
+    "plant_no" NUMERIC(3, 1),
+    "direction_of_use" TEXT,
+    "ethnobotanical_Uses" TEXT,
+    "used_part" NUMERIC(4, 1)
+);
+INSERT INTO "uses" VALUES
+    (1.0,'¾ of fresh cow milk with leaf paste is mixed and
+intaken','Cures White
+discharge for women',201.0),
+    (2.0,'Whole plant is shade dried and powdered; mixed with milk and in
+taken','Removes stones from Urinary tract',202.0),
+    (3.0,'Leaves with coconut oil is heated and applied on
+swelled area','Cures swelling',201.0),
+    (4.0,'Sap of the stem is applied on
+wounds','Wound healer',203.0),
+    (5.0,'Sap of the leaves are heated with castor oil; applied on bones and tied tightly
+with a cloth','Recovers from bone fracture',201.0),
+    (6.0,'Leaves rawly in taken daily','Used as food supplement',201.0),
+    (7.0,'A dried and powdered pseudobulb is applied on body before the bath.','Recover sfrom hypothermia',204.0),
+    (8.0,'Powdered bulb is heated with oil; applied on legs and
+hands','Recovers from sprain',204.0),
+    (9.0,'Leaves paste with jaggery
+is in taken','Cures cough',201.0),
+    (10.0,'Leaves are crushed and its extract is applied on the body at
+evening only','Recovers from body pain and fever',201.0),
+    (11.0,'Seeds soaked into water for 15 days and added with rice flour on dosa and idli
+preparation','Edible – Food supplement',205.0),
+    (12.0,'Tubers are crushed; mixed with honey and in
+taken','Cures Stomach pain/disorder s',206.0),
+    (13.0,'Tuber is rawly in
+taken','Appetizer',206.0),
+    (14.0,'Bark is crushed, made into paste with lemon and in
+taken','Recovers from snake bite',207.0),
+    (15.0,'Tuber is stream cooked, mixed with honey and in
+takens','Removes stones from Urinary tract and used as food
+supplement',206.0),
+    (16.0,'Leaves are crushed and its extract applied on
+cut wounds','Wound healers',201.0),
+    (17.0,'Leaves with Rubus ellipticus leaves, a pinch of mud and buffalo dung are crushed and in taken with
+water','Recovers from fever',201.0),
+    (18.0,'Flowers or tubers crushed and extracts are given in drops for eye','Cures eye pain',206.0),
+    (19.0,'The fruit heated in the fire and
+eaten','Edible',208.0),
+    (20.0,'Leaves are boiled the water and
+bath it','Recovers body pain',201.0),
+    (21.0,'Leaves are crushed and its extract are applied
+on body','Recover from fever',201.0),
+    (22.0,'Leaf paste','Removes wartz',201.0),
+    (23.0,'Roots are grinded and its extract
+are in taken','Cures stomach pain',209.0),
+    (24.0,'Roots are crushed with few cumin seeds and its extract are in taken in empty
+stomach','Recovers from stomach lumps',209.0),
+    (25.0,'Bark is dried, powdered and boiled, extract is in
+taken','Recovers from stomach lumps',207.0),
+    (26.0,'Leaf extract with milk','Cures from any stomach disorders',201.0),
+    (27.0,'Bark''s sap is mixed with water and kept overnight; washed the mouth and
+teeth','Recovers from tooth pain',210.0),
+    (28.0,'Cooked and in taken','Edible and removes hair or thread from
+stomach',203.0),
+    (29.0,'The fresh woods are
+carved','Handle for cooking',211.0),
+    (30.0,'Tender leaves are crushed and its extract is
+in taken','Recover from dysentery',201.0),
+    (31.0,'Sap of leaves are used as
+ear drops','Cures from ear pain',201.0),
+    (32.0,'Leaf extract and breast milk is used
+as eye drops','Cures from eye infections',201.0),
+    (33.0,'Leaf paste are applied on leg','Recover from filariasis',201.0),
+    (34.0,'Leaves are crushed and its extract is
+in taken','Cure sever stomach pain',201.0),
+    (35.0,'Leaves are finely made into paste and in taken
+with buttermilk','Removes stones from Urinary tract',201.0),
+    (36.0,'Bark is boiled and its steamed in
+taken orally','Cures tooth pain',207.0),
+    (37.0,'Dried fruit is made into paste and mixed with luke warm
+water','Recover stomach aches for children',208.0),
+    (38.0,'Root is crushed and applied over
+painful area','Cures swelling or pain',207.0);
+

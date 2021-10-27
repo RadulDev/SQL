@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS "plant_part" (
+    "part_id" NUMERIC(4, 1) PRIMARY KEY,
+    "plant_part" TEXT
+);
+INSERT INTO "plant_part" VALUES
+    (201.0,'Leaves'),
+    (202.0,'Whole plant'),
+    (203.0,'Stem'),
+    (204.0,'Bulb'),
+    (205.0,'Seeds'),
+    (206.0,'Tuber'),
+    (207.0,'Bark'),
+    (208.0,'Fruit'),
+    (209.0,'Roots'),
+    (210.0,'Stem bark'),
+    (211.0,'Wood');
+

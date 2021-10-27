@@ -1,0 +1,57 @@
+CREATE TABLE IF NOT EXISTS "names" (
+    "plant_id" NUMERIC(3, 1),
+    "botanical_name" TEXT,
+    "Local_name" TEXT,
+    "habit_code" TEXT,
+    "family_id" NUMERIC(4, 1)
+);
+INSERT INTO "names" VALUES
+    (1.0,'Asparagus racemosus Willd.','Sadhavari','CS',101.0),
+    (2.0,'Actiniopteris radiata (Sw.) Link','Mayilviri','H',102.0),
+    (3.0,'Anaphalis neelgerryana
+(DC.) DC.','Katel','H',103.0),
+    (4.0,'Anaphalis subdecurrens
+Gamble','Kodayars','H',103.0),
+    (5.0,'Basella alba L.','Vasala dahu','TW',104.0),
+    (6.0,'Berberis tinctoria Lesch.','Oosipalam','S',105.0),
+    (7.0,'Bulbophyllum fimbriatum
+(Lindl.) Rchb.f.','Maramalli','H',106.0),
+    (8.0,'Bulbophyllum neilgherensis
+Wight','Marakaai','H',106.0),
+    (9.0,'Capparis grandis L.f.','Thoratti maram','T',107.0),
+    (10.0,'Crotalaria biflora L.','Odambuvali chedi','H',108.0),
+    (11.0,'Cycas circinalis L.','Eendhu','S',109.0),
+    (12.0,'Cyclea peltata (Lam.) Hook.f. & Thomson','Pavatta','TW',110.0),
+    (13.0,'Decalepis hamiltonii Wight & Arn.','Mahaali Kizhanku','TW',111.0),
+    (14.0,'Dichrostachys cinerea (L.) Wight & Arn.','Vedathalai','T',112.0),
+    (15.0,'Dioscorea oppositifolia L.','Riyang kesanku','TW',113.0),
+    (16.0,'Eupatorium adenophorum
+Spreng.','Sarmanthor','H',103.0),
+    (17.0,'Galium asperifolium Wall.','Kuributhur','H',114.0),
+    (18.0,'Gloriosa superba L.','Kanivili kizhangu','H',101.0),
+    (19.0,'Gnetum ula Brogn.','Oolai kai','L',115.0),
+    (20.0,'Justicia gendarussa Burm.f.','Karunochi','S',116.0),
+    (21.0,'Leucas lamiifolia Desf.','Thumbai','H',117.0),
+    (22.0,'Leucas vestita Benth.','Thumbai','H',117.0),
+    (23.0,'Litsea deccanensis Gamble','Jakkatha maram','T',118.0),
+    (24.0,'Neonotonia wightii (Wight & Arn.) J.A.Lackey','Kattusolu chedi','TW',108.0),
+    (25.0,'Nothapodytes nimmoniana
+(J.Graham) Mabb.','Kokud','T',119.0),
+    (26.0,'Piper umbellatum L.','Kapya illai','CS',120.0),
+    (27.0,'Rapanea wightiana (Wall. ex A. DC.) Mez','Kallumaram','T',121.0),
+    (28.0,'Remusatia vivipara (Roxb.) Schott','Para chembu','H',122.0),
+    (29.0,'Rhododendron arboreum
+subsp. nilagiricum (Zenker)
+Tagg, J. B. Stevenson','Katturoja','T',123.0),
+    (30.0,'Rhodomyrtus tomentosa (Ai ton) Hassk.','Thavutu palam','T',124.0),
+    (31.0,'Rhynchostylis retusa (L.) Blume','Sevuttu olai','H',106.0),
+    (32.0,'Rubia cordifolia L.','Karappa chedi','CS',114.0),
+    (33.0,'Sansevieria roxburghiana
+Schult. & Schult.f.','Manji','H',125.0),
+    (34.0,'Sida acuta L.','Kurnthotti','H',126.0),
+    (35.0,'Scoparia dulcis L.',NULL,'H',127.0),
+    (36.0,'Syzygium cumini (L.) Skeels','Navaal','T',124.0),
+    (37.0,'Thottea siliquosa Lam.','Murthikai','S',128.0),
+    (38.0,'Zanthoxylum ovalifolium
+Tutcher','Machiyakodi','T',129.0);
+

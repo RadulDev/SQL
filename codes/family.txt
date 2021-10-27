@@ -1,0 +1,35 @@
+CREATE TABLE IF NOT EXISTS "family" (
+    "family_id" NUMERIC(4, 1),
+    "family" TEXT
+);
+INSERT INTO "family" VALUES
+    (101.0,'Liliaceae'),
+    (102.0,'Pteridaceae'),
+    (103.0,'Asteraceae'),
+    (104.0,'Basellaceae'),
+    (105.0,'Berberidaceae'),
+    (106.0,'Orchidaceae'),
+    (107.0,'Capparaceae'),
+    (108.0,'Fabaceae'),
+    (109.0,'Cycadaceae'),
+    (110.0,'Menispermaceae'),
+    (111.0,'Asclepiadaceae'),
+    (112.0,'Mimosaceae'),
+    (113.0,'Dioscoreaceae'),
+    (114.0,'Rubiaceae'),
+    (115.0,'Gnetaceae'),
+    (116.0,'Acanthaceae'),
+    (117.0,'Lamiaceae'),
+    (118.0,'Lauraceae'),
+    (119.0,'Icacinaceae'),
+    (120.0,'Piperaceae'),
+    (121.0,'Myrsinaceae'),
+    (122.0,'Araceae'),
+    (123.0,'Ericace'),
+    (124.0,'Myrtaceae'),
+    (125.0,'Asparagaceae'),
+    (126.0,'Malvaceae'),
+    (127.0,'Scrophulariaceae'),
+    (128.0,'Aristolochiaceae'),
+    (129.0,'Rutaceae');
+
