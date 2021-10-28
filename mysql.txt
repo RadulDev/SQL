@@ -1,0 +1,26 @@
+latest version of MySQL available in the Ubuntu repositories is MySQL version 8.0. To install it run the following commands:
+
+sudo apt update
+sudo apt install mysql-server
+
+To log in to the MySQL server as the root user type:
+
+sudo mysql
+
+note: screenshot of entering mysql command prompt
+
+note: description of database;
+
+the database consiste of 7 tables:
+1. Advantages_disadvantages
+2. candidates_ in_clinical_ trials
+3. DISTRIBUTION
+4. Developer
+5. Examples
+6. Full_forms
+7. Types_names
+
+
+note: ER diagram
+
+following commands
