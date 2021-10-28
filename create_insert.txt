@@ -1,0 +1,15 @@
+Create table
+create table if not exists "family" ("family_id" numeric(4, 1),"family" text, Primary key (family_id));
+create table if not exists "habitat" ("habit_code" text,"habitat" text, primary key(habit_code));
+create table if not exists "names" ("plant_id" numeric(3, 1),"botanical_name" text, "local_name" text,"habit_code" text,"family_id" numeric(4, 1), primary key(plant_id), foreign key(habit_code) references habitat(habit_code));
+create table if not exists "plant_part" ("part_id" numeric(4, 1) primary key,"plant_part" text);
+create table if not exists "uses" ("plant_no" numeric(3, 1) primary key,"direction_of_use"text, "ethnobotanical_Uses" text,"used_part" numeric(4, 1),foreign key(used_part) references plant_part(part_id));
+
+Insert
+insert into "family" values (101.0,'Liliaceae'),(102.0,'Pteridaceae'),(103.0,'Asteraceae'),(104.0,'Basellaceae');
+
+insert into "habitat" values ('CS','Climbeing Shrubs'),('H','Herbs'),('TW','Twiners');
+
+insert into "names" values (1.0,'Asparagus racemosus ','Sadhavari','CS',101.0), (2.0,'Actiniopteris radiata ','Mayilviri','H',102.0);
+insert into "plant_part" values (201.0,'Leaves'),(202.0,'Whole plant'),(203.0,'Stem');
+insert into "uses" values (1.0,'¾ of fresh cow milk with leaf paste is mixed and intaken','Cures White discharge for women',201.0), (2.0,'Whole plant is shade dried and powdered ', 'Removes stones from Urinary tract',202.0);
