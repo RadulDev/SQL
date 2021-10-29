@@ -1,0 +1,19 @@
+
+    1. select * from names where botanical_name = 'Piper umbellatum L.';
+       
+    2. select * from names where botanical_name like 'Pipe%';
+       
+    3. select * from names where habit_code = 'T' ;
+       
+    4. select * from names where habit_code = 'T' limit 5 ;
+       
+    5. select names.plant_id, botanical_name, "ethnobotanical_Uses" from names inner join uses on names.plant_id=uses.plant_no;
+       
+    6. select plant_id,botanical_name,habitat from names inner join habitat on names.habit_code = habitat.habit_code;
+       
+    7. select "botanical_name",habit_code from names order by "habit_code" ;
+    8. select "botanical_name","plant_part" from names inner join uses on names.plant_id=uses.plant_id where (select used_part from  
+    9. select plant_part from uses inner join plant_part on uses.used_part=plant_part.part_id;
+    10. select plant_no,plant_part from uses inner join plant_part on uses.used_part=plant_part.part_id order by plant_no;
+    11. select plant_id,botanical_name from names where family_id = (select family_id from family where family='Rutaceae');
+    12. select count(plant_id),habitat from names inner join habitat on names.habit_code=habitat.habit_code group by habitat;
